@@ -1,0 +1,195 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #282828;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	width: 100%;
+	padding-bottom: 0;
+}
+
+.container {
+	background: url(../mobimages/bg.png);
+	background-repeat: no-repeat;
+	width: 640px;
+	height: 100vh; /*1644px}*/ 
+	margin: 0 auto;
+}
+
+.inner-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*HEAD*/
+.logo img {
+	float: left;
+	padding: 22px 0 0 32px;
+}
+
+.gamburger {
+	float: right;
+	padding: 27px 27px 0 0;
+}
+
+.heading {
+	background: #FEFEFE;
+	width: 100%;
+	height: 90px;
+}
+/*HEAD.*/
+
+.banner {
+	width: 534px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+.banner-item {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+article {
+	position: relative;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+article p:nth-child(1) {
+	font-size: 40px;
+	margin: 0;
+	line-height: 35px;
+}
+
+article p:nth-child(2) {
+	font-size: 30px;
+	margin: 0;
+}
+
+article p:nth-child(3) {
+	font-size: 20px;
+	margin: 0;
+}
+
+article p:nth-child(4) {
+	font-size: 20px;
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner-item a {
+	display: block;
+	width: 260px;
+	height: 55px;
+	background: #658AEE;
+	font-size: 31px
+	color: #ECEFFA;
+}
+
+.banner-item a img {
+	float: left;
+	margin: 10px 15px;
+	border-top: 1px solid #4f8ada;
+}
+
+.banner-item a p {
+	margin: 0;
+	line-height: 55px;
+	font-size: 31px;
+	color: #F5F7FC;
+}
+
+/*BANNER.*/
+
+.icons {
+	width: 100%;
+	background: #FEFEFE;
+	height: 195px;
+	border-bottom: 1px solid #ccc;
+}
+
+.icon-items {
+	width: 534px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.icon-items h2 {
+	color: #7194EF;
+}
+
+.icon-items img {
+	float: left;
+	padding-right: 20px;
+}
+
+.icon-items p {
+	font-size: 19px;
+}
+
+.cart {
+	width: 100%;	
+	background: #FEFEFE;
+	text-align-last: center;
+}
+
+.cart p {
+	margin-top: 0;
+	padding-top: 20px;
+	font-size: 31px;
+}
+
+.content {
+	width: 100%;
+	height: 300px;
+	background: #FEFEFE;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-text {
+	width: 534px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.content-text h2 {
+	margin-top: 0;
+	color: #717375;
+	padding-top: 30px;
+}
+
+.content-text p {
+	color: #C9C9C9;
+}
+
+.footer {
+	width: 100%;
+	height: 85px;
+	background: #FEFEFE;
+	text-align: center;
+	line-height: 85px;
+}
+
+.footer-text p {
+	margin: 0;
+	color: #B5B4B5;
+} 
